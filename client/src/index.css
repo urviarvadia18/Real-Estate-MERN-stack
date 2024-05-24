@@ -1,0 +1,405 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  body{
+    background-color: rgb(241, 245, 241);
+  }
+
+  
+  .float-container {
+    border: 3px solid #fff;
+    padding-top: -80px;
+  }
+
+  .container-left{
+    float: left;
+  }
+
+  .contactus{
+    float: left;
+    width: 70vh ;
+    height: 1vh;
+    margin-bottom: 4vh;
+    padding: 3vh; 
+    border-radius: 2vh;
+  }
+
+  .contactus1{
+    float: left;
+    width: 70vh ;
+    margin-bottom: 4vh;
+    padding: 6vh; 
+    border-radius: 2vh;
+    padding-top: 1%;
+    padding-left: 4%;
+  }
+
+  .contactus2{
+    float: left;
+    width: 50vh ;
+    height: 1vh;
+    margin-left: 10vh;
+    margin-bottom: 4vh;
+    padding: 4vh; 
+    border-radius: 2vh;
+    padding-top: 1%;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  .direct-contact-container {
+    float:right;
+    padding-left: 10vh;
+    padding-right: 13vh;
+    background-color: #ffffff;
+    border-radius: 2vh;
+    margin-right: 22vh;
+    margin-top: -2vh;
+    padding-bottom: 7.5vh;
+  }
+
+  .contact-list {
+    list-style-type: none;
+  }
+  .list-item {
+    line-height: 4;
+    color: #303030;
+  }
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #303030;
+    text-align: center;
+  }
+  .place {
+    margin-left: 70px;
+    font-weight: 900;
+  }
+  .phone {
+    margin-left: 20px;
+  }
+  .gmail {
+    margin-left: 20px;
+  }
+  
+  .contact-text a {
+    color: #303030;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+
+  .contact-text a:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .bg{
+    background-image: url(./img/signin.jpg);
+    height: 900px;
+    width: 1450px;
+    background-repeat: no-repeat;
+  }
+
+  .aboutimg{
+    background-image: url(./img/about1.jpg);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 197px;
+    margin-right: 50px;
+  }
+.main-step{
+  width: 99vw;
+  padding-left: 10vh;
+  padding-right: 13vh;
+  background-color: #ffffff;
+  border-radius: 2vh;
+  margin-right: 22vh;
+  margin-top: -2vh;
+  padding-bottom: 7.5vh;
+  /* display: flex; */
+}
+
+.main-step1{
+  width: 99vw;
+  padding-left: 10vh;
+  padding-right: 13vh;
+  background-color: #ffffff;
+  border-radius: 2vh;
+  margin-right: 22vh;
+  margin-top: -2vh;
+  padding-bottom: 7.5vh;
+  height: 40vw;
+  /* display: flex; */
+}
+  .stepscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 30px;
+  }
+  
+  .heading{
+     text-align: center;
+     font-size: 35px;
+     font-weight: 500;
+     padding-top: 10px;
+  }
+  .steps{
+    width: 400px;
+    background-color: rgb(241, 245, 241);
+    border-radius: 2vh;
+    padding: 3%;
+    height: 65vh;
+    background-color: rgb(241, 245, 241);
+  }
+  .text{
+    text-align: center;
+    font-size: 24px;
+    font-weight:bolder;
+  }
+  .text1{
+    text-align: center;
+    font-size: 18px;
+    font-weight:400;
+  }
+
+.vh{
+  background-size: cover;
+  height: 88vh;
+}
+
+.back-blur{
+  background-color:rgba(255, 255, 255, 0.581);
+  height: 40vh;
+  width: 70vw;  
+  padding-top: 50px;
+}
+.contact-banner{
+  height: 40vh;
+  width: 1000vw;  
+
+}
+.phone-icon{
+  display: flex;
+  height: 6vh;
+  width: 6vw; 
+  justify-content: center;
+  margin-left: 40%;
+
+
+}
+
+.flex-container {
+  display: flex;
+  padding: 10%;
+}
+
+.flex-child {
+  text-size-adjust: 10px;
+  flex: 1;
+  border: 2px solid rgb(251, 251, 251);
+  text-align: center;
+  margin-top: -25%;
+  background-color: #fff;
+  width:60%;
+ 
+
+
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+  margin-top: -25%;
+  
+
+} 
+#center {  
+  text-align: center;  
+  }  
+
+.contact-heading{
+  font-size:25px ;
+  font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .phone-number{
+    color: blue;
+    
+  }
+  .row {
+	  display: flex; /* equal height of the children */
+	}
+	.col {
+	  flex: 1; /* additionally, equal width */
+	  text-align: center;
+	  padding: 1em;
+	  border-color: #fff;
+    margin-top: -5%;
+    background-color: #fff;
+    margin-left: 10%;
+    margin-right: 5%;
+
+	}	
+  .col1 {
+	  flex: 1; /* additionally, equal width */
+	  text-align: center;
+	  padding: 1em;
+	  border-color: #fff;
+    margin-top: -5%;
+    background-color: #fff;
+   
+    margin-right: 10%;
+    
+	}	
+  .contact-title{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 5%;
+
+  }
+  .container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+  }
+  
+  .left {
+    flex: 85%;
+    background-color: #f1f1f1;
+    
+  }
+  
+  .right {
+    flex: 50%;
+    background-color: #dce5ebfd;
+    text-align: center;
+    padding-top: 10%;
+  }
+  .container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .c1-img {
+      max-width: 100%;
+      max-height:50%;
+      float: left;
+    }
+    .c-form {
+      font-size: 20px;
+      padding-left: 20px;
+      padding-top: 5%;
+      float: right;
+      width: 50%;
+    }
+    .col-lg-6 {
+      width: 87%;
+      height: 50%;
+  }
+  /* Sidebar.css */
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #555;
+}
+.app {
+  background: #a8d5e5;
+}
+.h1 {
+  color: #165a72;
+  margin: 50px auto;
+  font-size: 40px;
+}
+.menu1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+h2 {
+  color: #165a72;
+}
+.myproperty-banner{
+  height: 30vh;
+  width: 1000vw;  
+
+}
+.nav-link active:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+.d-banner{
+  height: 70%;
+  width: 1000%;
+}
+.seesteps{
+  width: 1250px;
+  background-color: rgb(241, 245, 241);
+  border-radius: 2vh;
+  padding: 1%;
+  height: 60vh;
+
+}
+.seeleft{
+  float: left;
+}
+.seeright{
+  float: right;
+}
+.heading-text{
+  font-size:20px;
+  font-weight:500 ;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+.text2{
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 100px;
+  color: rgb(0, 0, 0);
+  
+}
+.emi-calculate-btn{
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.emiimg{
+  float: left;
+  padding-top: 45px;
+}
+.heading-text1{
+  font-size:25px;
+  font-weight:700 ;
+  padding-left: 900px;
+  padding-top: 10px;
+  
+}
+.vrbanner{
+  height:500px;
+  width:1500px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
